@@ -32,6 +32,9 @@ body > header .navbar-nav li a {
 main header {
     background-color: #150c03;
 }
+.bg-brown{
+    background-color: #150c03;
+}
 main header .splash-image#splash-image-contact-us{    
     background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
 }
