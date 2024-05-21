@@ -1,3 +1,7 @@
+.text-justify { /* Was removed from bootstrap... */
+    text-align: justify;
+    text-justify: inter-word;
+}
 /*
     Main Navigation
 */
