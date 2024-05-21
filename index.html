@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/contact-us.css">
+    <link rel="stylesheet" href="styles/home.css">
   </head>
-  <body>
-    
+  <body>    
         <!-- Header -->
         <header class="sticky-top">
           <nav class="navbar navbar-expand-md" aria-label="Offcanvas navbar">
@@ -64,30 +63,64 @@
           </nav>
       </header>
     <!-- main content -->
-    <main>  
-      <div class="slickSlider">
-        <div>
-          <img class="img-fluid" src="images/trade-show-image.png">
-          <article>
-            <h2>Walking in The Forest</h2>
-          <p>Summer 2024</p>
-        </article>
+    <main clss="home">  
+        <div class="slick-carousel">
+            <div class="slide">
+                <div class="slide-image slide1"></div>
+                <div class="overlay">
+                  <div class="row">
+                    <div class="overlay-text col-12 col-md-5 offset-md-1 p-4">
+                      <h2>BrewFest Nova Scotia</h2>
+                      <h3 class="text-uppercase">Trade show</h3>
+                      <p>Visit Green Brew Bros at four big trade shows this winter to try our organic ales and see our eco-friendly brewing methods.</p>
+                      <a href="#" class="btn btn-primary fw-semibold rounded-0 px-5">Learn more</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-image slide2"></div>
+                <div class="overlay">
+                  <div class="row">
+                    <div class="overlay-text col-12 col-md-5 offset-md-1">
+                      <h2>Christmas eve celebration</h2>
+                      <h3 class="text-uppercase">BAR EVENT</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. In pretium nunc cras suspendisse ullamcorper risus vestibulum. Vitae fermentum tellus adipiscing mus.</p>
+                      <a href="#" class="btn btn-primary fw-semibold rounded-0 px-5">Learn more</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-image slide3"></div>
+                <div class="overlay">
+                  <div class="row">
+                    <div class="overlay-text col-12 col-md-5 offset-md-1">
+                      <h2>New Year Celebration</h2>
+                      <h3 class="text-uppercase">Bar event</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur. In pretium nunc cras suspendisse ullamcorper risus vestibulum. Vitae fermentum tellus adipiscing mus.</p>
+                      <a href="#" class="btn btn-primary fw-semibold rounded-0 px-5">Learn more</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
-        <div>
-          <img class="img-fluid" src="images/trade-show-image.png">
-          <article>
-            <h2>Yogo near the lake</h2>
-            <p>Spring 2024</p>
-          </article>
+        <div class="container-fluid p-0 home-beers align-items-center">
+            <div class="row">
+                <div class="col-12 col-md-7"></div>
+                <div class="col-12 col-md-5">
+                  <p><span id="our-beers">Our beers</span>&nbsp;
+                    <span>are</span><br>
+                  <span>all</span>&nbsp;
+                  <span class="font-orange-accent">organic</span>&nbsp;
+                  <span>and have a very</span>>&nbsp;
+                  <span class="font-orange-accent">earthy</span>&nbsp;
+                  <span>feel</span><br></p>
+                  <a href="#" class="btn btn-primary fw-semibold rounded-0 px-5">View our beers</a>
+                </div>
+            </div>
+
         </div>
-        <div>
-          <img class="img-fluid" src="images/trade-show-image.png">
-          <article>
-            <h2>Quietly Hammocking</h2>
-            <p>Winter 2023</p>
-          </article>
-        </div>
-      </div>
     </main>
     <!-- footer -->    
     <footer class="mt-4">
@@ -142,24 +175,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
     $(document).ready(function(){
-      $('.slickSlider').slick({
-        slidesToShow: 3,
-        responsive: [
-          {
-            breakpoint: 1400,
-            settings: {
-              slidesToShow: 2,
-            }
-          },
-          {
-            breakpoint:768,
-            settings: {
-              slidesToShow: 1,
-            }
-          }
-        ]
-      });
+    $('.slick-carousel').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
     });
+});
+
       
   </script>
   </body>

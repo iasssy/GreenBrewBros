@@ -1,3 +1,5 @@
+/* start of repetitive code*/
+
 /*
     Main Navigation
 */
@@ -35,9 +37,6 @@ main header {
 .bg-brown{
     background-color: #150c03;
 }
-main header .splash-image#splash-image-contact-us{    
-    background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
-}
 main header .splash-image {
     background-size: cover;
     height: 215px;
@@ -49,7 +48,6 @@ main header h1 {
 main header h1 + hr {
     color: #936848
 }
-
 
 @media (min-width: 768px) {
     body > header .navbar {
@@ -76,4 +74,11 @@ main header h1 + hr {
         height: 450px;
         margin-top: -125px;
     }
+}
+
+
+/* end of repetitive code*/
+
+main header .splash-image#splash-image-contact-us{    
+    background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
 }
