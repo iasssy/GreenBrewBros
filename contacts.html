@@ -6,43 +6,71 @@
     <title>GreenBrewBros - Microbrewery - Contact us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact-us.css">
   </head>
   <body>
-    <!-- header -->
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-              <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="images/logo-text.png" alt="GreenBrewBros website" class="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Beers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacts.html">Contact us</a>
-                  </li>
-                </ul>
+    
+        <!-- Header -->
+        <header class="sticky-top">
+          <nav class="navbar navbar-expand-md" aria-label="Offcanvas navbar">
+              <div class="container-fluid ps-3 col-md-10 mt-md-4">
+                  
+                  <a class="navbar-brand col-md-5" href="index.html">
+                      <img class="logo img-fluid mt-md-3" src="images/logo-text.png" alt="Green Brew Bros logo" >
+                  </a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-nav" aria-controls="main-nav" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="main-nav">
+                      <div class="offcanvas-header">
+                          <button type="button" class="btn-close fs-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <ul class="navbar-nav me-auto mb-4 mt-4 mt-mb-5 mb-md-0 align-items-center justify-content-md-end flex-grow-1">
+                              <li class="nav-item">
+                                  <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="events.html">Events</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Beers</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link text-nowrap" href="contacts.html">Contact Us</a>
+                              </li>
+                          </ul>
+                          <div class="social-icons-footer mb-5 text-center d-md-none">
+                              <a href="#"><i class="bi bi-facebook"></i></a>
+                              <a href="#"><i class="bi bi-twitter"></i></a>
+                              <a href="#">
+                                  <svg class="bi bi-foursquare" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 512" height="30">
+                                      <path d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z"/>
+                                  </svg>
+                              </a>
+                              <a href="#"><i class="bi bi-instagram"></i></a>
+                              <a href="#"><i class="bi bi-vimeo"></i></a>
+                          </div>
+                          <div class="text-center d-md-none">
+                              <img class="img-fluid logo-image" src="images/logo-image.png" alt="logo image Green Brew Bros">
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </nav>
-    </header>
+      </header>
     <!-- main content -->
     <main>     
-      <div class="container-fluid p-0 banner">
-        <img class="cover" src="images/banner-contact-us.png" alt="banner bar interior">
-        <h1 class="position-absolute">Contact us</h1>
-      </div>
+      <section class="bg-brown">
+        <header>
+          <div class="splash-image" id="splash-image-contact-us"></div>
+          <div class="offset-1 col-10">
+              <h1 class="mt-4">Contact us</h1>
+              <hr class="border-2 opacity-50">
+          </div>
+        </header>
       <div class="container-fluid p-0 pb-5 contact-form">
         <div class="row">
           <div class="col-12 col-md-6 p-3 d-flex justify-content-center">
@@ -70,13 +98,12 @@
               </div>
               <textarea class="form-control" name="inputTextarea" id="inputTextarea" rows="3" placeholder="Message*" required></textarea>  
               <div class="d-flex justify-content-center">                     
-                <button type="submit" name="btnSubmit" class="btn btn-outline-primary btn-lg mt-4">Submit</button>
+                <button type="submit" name="btnSubmit" class="btn btn-outline-primary btn-lg mt-4">Send</button>
               </div>  
             </form>
           </div> 
         </div>
       </div>
-    
       <div class="div-waves">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
             <defs>
@@ -93,7 +120,8 @@
             </g>
         </svg>
       </div>
-
+      </section>      
+      <section>
       <div class="container address-map">        
         <div class="row">
           <div class="col-12 col-md-4 offset-md-1 p-3  text-center">           
@@ -140,89 +168,52 @@
           </div>  
         </div> 
       </div>
+     </section>
     </main>
-    <!-- footer -->
-    <footer class="py-3 mt-2 mt-md-4">
-      <img class="img-fluid footer-image" src="images/cropped-house-2.png" alt="GreenBrewBros factory">
-      <div class="container-fluid p-0 footer-lower px-3">
-          <div class="row"> 
-            <div class="col-12 text-center">
-              <div class="mt-4 social-icons-footer">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#">
+    <!-- footer -->    
+    <footer class="mt-4">
+      <img class="footer-image w-100" src="images/cropped-house.png" alt="Green Brew Bros factory">
+      <div class="footer text-center">
+          <div class="mt-4 mb-3 social-icons-footer">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#">
                   <svg class="bi bi-foursquare" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 512" height="30">
-                    <path d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z"/>
+                      <path d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z"/>
                   </svg>
-                </a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-vimeo"></i></a>
+              </a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-vimeo"></i></a>
+          </div>
+          <div class="row m-0">
+              <div class="offset-sm-1 col-sm-10 offset-md-1 col-md-10 offset-lg-2 col-lg-3 pt-3 text-center">
+                  <img class="img-fluid logo-image mb-4" src="images/logo-image.png" alt="logo image Green Brew Bros">
+                  <p class="text-justify p-2">We are a small microbrewery established in 2018 in the great province of Nova Scotia. Two brothers, Simon and Samuel, and a love of ales is how our story begins.</p>  
               </div>
-            </div>
-            <div class="col-12 mt-4">   
-                <ul class="footer-links d-flex justify-content-center">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">Events</a>
-                  </li>
-                  <li>
-                    <a href="#">Beers</a>
-                  </li>
-                  <li>
-                    <a href="contacts.html">Contact us</a>
-                  </li>
-                </ul>
-            </div>
-            <div class="col-12">
-              <div class="row d-flex justify-content-center">
-                <div class="col-12 col-lg-3 offset-lg-2 p-3 col-md-3 text-center footer-info">
-                  <img class="img-fluid" src="images/logo-image.png" alt="logo GreenBrewBros - Microbrewery">
-                  <p class="pt-4 px-5">We are a small microbrewery established in 2018 in the great province of Nova Scotia. Two brothers, Simon and Samuel, and a love of ales is how our story begins.</p>  
-                </div>
-                <div class="col-md-1 vertical-line-container">
-                  <div class="row">
-                    <div class="col vertical-line mt-3"> 
-                      <br>                            
-                      <br>                                   
-                      <br>                            
-                      <br>                                   
-                      <br>                            
-                      <br>                                   
-                      <br>                            
-                      <br>                              
-                      <br>                             
-                      <br>                                  
-                    </div>
-                    <div class="col">                      
-                    </div>
-
+              <div class="col-md-1 d-none d-lg-block"><div class="vr h-100 vertical-line-container"></div></div>
+              <div class="offset-sm-1 col-sm-10 col-md-10 offset-lg-0 col-lg-6 d-lg-flex flex-lg-row py-3">
+                  <div>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5674.5520560807145!2d-63.569333099999994!3d44.673141199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a215874055b2d%3A0x1853e9a5beb13e9d!2s123%20Maple%20St%2C%20Dartmouth%2C%20NS%20B3A%201X9!5e0!3m2!1sen!2sca!4v1716160334561!5m2!1sen!2sca" height="240" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
                   </div>
-                </div>
-                <div class="col-12 col-md-3 p-3 text-center">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5674.5520560807145!2d-63.569333099999994!3d44.673141199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a215874055b2d%3A0x1853e9a5beb13e9d!2s123%20Maple%20St%2C%20Dartmouth%2C%20NS%20B3A%201X9!5e0!3m2!1sen!2sca!4v1716160334561!5m2!1sen!2sca" 
-                  height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
-                </div>
-                <div class="col-12 col-md-3 col-lg-2 p-3">                    
-                  <div class="contact-details d-flex flex-row">
-                    <i class="bi bi-geo-alt"></i>
-                    <span class="d-flex flex-column">123 Maple Street<br>
-                      Halifax, Nova Scotia<br>
-                      B3J 2K9  Canada</span>
+                  <div class="ps-3">
+                      <div class="contact-details d-flex flex-row mb-4">
+                          <i class="bi bi-geo-alt"></i>
+                          <span class="d-flex flex-column text-start">
+                              123 Maple Street<br>
+                              Halifax, Nova Scotia<br>
+                              B3J 2K9  Canada
+                          </span>
+                      </div>
+                      <div class="contact-details d-flex flex-row">
+                          <i class="bi bi-telephone-inbound"></i>
+                          <span>(902) 555-1234</span>
+                      </div>
                   </div>
-                  <div class="contact-details d-flex flex-row mt-4">
-                    <i class="bi bi-telephone-inbound"></i>
-                    <span>(902) 555-1234</span>
-                  </div>
-                </div>
-                <div class="col-12 text-center copyright">
-                  <i class="bi bi-c-circle"></i> 2024 GreenBrewBros  All Rights Reserved.
-                </div>
               </div>
-            </div>    
-          </div>     
-            
+          </div>
+          <div class="copyright">
+              <i class="bi bi-c-circle"></i> 2024 Green Brew Bros. All Rights Reserved.
+          </div>
       </div>
   </footer>
   </body>

@@ -1,0 +1,84 @@
+/* start of repetitive code*/
+
+/*
+    Main Navigation
+*/
+body > header {
+    background-color:  rgba(21,12,3,0.9);
+}
+body > header .navbar {
+    height: 70px;
+}
+body > header .logo {
+    width: 240px;
+}
+body > header .logo-image {
+    width: 145px;
+}
+body > header .navbar .offcanvas {
+    background-color: #150c03;
+}
+body > header .offcanvas-header {
+    filter: invert(1);
+}
+body > header .navbar-nav li a {
+    font-size: 2em;
+    line-height: 1.8em;
+    text-transform: capitalize;
+}
+
+/*
+    Main content
+*/
+
+main header {
+    background-color: #150c03;
+}
+.bg-brown{
+    background-color: #150c03;
+}
+main header .splash-image {
+    background-size: cover;
+    height: 215px;
+    margin-top: -70px;
+}
+main header h1 {
+    color: #fff;
+}
+main header h1 + hr {
+    color: #936848
+}
+
+@media (min-width: 768px) {
+    body > header .navbar {
+        height: 125px;
+    }
+    body > header .logo {
+        width: 460px;
+    }
+    body > header .navbar-nav li a {
+        font-size: 18px;
+    }
+
+    body > footer .footer {
+        background-color: #150c03;
+        margin-top: -170px;
+        min-height: 300px;
+        padding: 120px 0 40px;
+    }
+    body > footer .footer .logo-image {
+        width: 225px;
+    }
+
+    main header .splash-image {
+        height: 450px;
+        margin-top: -125px;
+    }
+}
+
+
+/* end of repetitive code*/
+
+main header .splash-image#splash-image-contact-us{    
+    background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
+}
