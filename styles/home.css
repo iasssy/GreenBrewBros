@@ -233,6 +233,9 @@
     .slide {
         height: 700px;
     }
+    .slide .slide-image {
+        background-position: center;
+    }
 
     .slick-carousel .overlay {
         bottom: 30px;
