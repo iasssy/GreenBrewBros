@@ -1,16 +1,5 @@
 
 /*
-    Main Navigation
-*/
-
-
-body > header .navbar-nav li a {
-    font-size: 2em;
-    line-height: 1.8em;
-    text-transform: capitalize;
-}
-
-/*
     Main content
 */
 
@@ -25,7 +14,7 @@ body > header .navbar-nav li a {
 }
 
 main header .splash-image#splash-image-contact-us{    
-    background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
+    background: url("../images/banner-contact-us.png") no-repeat; 
 }
 
 .banner {    
