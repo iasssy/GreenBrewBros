@@ -203,18 +203,43 @@ span.font-orange-accent{
     }
 }
 
+/*
+    Quote section
+*/
 .parallax-bg {
-  /* The image used */
-  background: url("../images/home-parallax-bg.png") no-repeat center;
+    /* The image used */
+    background: url("../images/home-parallax-bg.png") no-repeat center;
+    /* Set a specific height */
+    height: 200px;
 
-  /* Set a specific height */
-  min-height: 300px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
 }
-.parallax-bg p {
+.parallax-bg div {
     color: #fff;
-    font-size: 32px;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-style:italic;
+    line-height: 28px;
+}
+.parallax-bg div span {
+    font-weight: bold;
+}
+.parallax-bg div span:last-of-type {
+    font-size: 26px;
+    color:#F8B803
+}
+
+@media (min-width: 768px) {
+    .parallax-bg {
+        height: 300px;
+    }
+    .parallax-bg div {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .parallax-bg div span:last-of-type {
+        font-size: 38px;
+    }
 }
