@@ -21,7 +21,7 @@
 
 main header .splash-image{    
     background: url("../images/beers-banner.png") no-repeat; 
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .banner {    
