@@ -35,23 +35,7 @@ main header .splash-image{
 
 
  /*  */
-.btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    margin: 2px;
-  }
-  
-  .btn:hover {
-    background-color: #ddd;
-  }
-  
-  .btn.active {
-    background-color: #666;
-    color: white;
-  }
+
   
   /* Ensure the filtering classes are hidden by default */
   .filterDiv {
@@ -77,14 +61,22 @@ main header .splash-image{
 }
 
 .selector-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ff4c4c;
     margin-bottom: 10px;
 }
 
+.selector-subtitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
 .selector-description {
-    color: #ccc;
+    font-weight: bold;
+    color: #f2e7e7;
     margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 .selector-controls .btn {
@@ -93,9 +85,14 @@ main header .splash-image{
     color: #000;
 }
 
+.alcohol-level-img-container {
+    padding: 0 20px;
+}
+
 
 .alcohol-level-img {
-    width: 150px;
+    width: 200px;
+    height: auto;
 }
 
 .product-card {
@@ -147,6 +144,18 @@ main header .splash-image{
 }
 
 @media (max-width: 768px) {
+    .selector-title {
+        font-size: 3rem;
+    }
+    .selector-subtitle {
+        font-size: 2rem;
+    }
+    .selector-description {
+        font-size: 1.25rem;
+    }
+    .alcohol-level-img {
+        width: 250px;
+    }
     .product-card {
         margin-bottom: 20px;
     }
