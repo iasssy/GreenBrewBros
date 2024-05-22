@@ -3,7 +3,7 @@
     Main content
 */
 main header .splash-image#splash-image-contact-us{    
-    background: url("../images/banner-contact-us.png");
+    background: url("../images/banner-contact-us.png") no-repeat center;
     background-size: cover; 
 }
 
@@ -11,9 +11,7 @@ main header .splash-image#splash-image-contact-us{
     background-color: #150C03;
     color: #ffffff;
 }
-.contact-form > .row{
-    padding-top: 50px;
-}
+
 .contact-form input, textarea.form-control{
     background-color: rgba(147,104,72,0.5);
     border: none;
@@ -52,7 +50,7 @@ height: auto;
     margin-bottom: 100px;
 }
  
-
+/*
 @media (min-width: 768px) {
     body > footer .footer {
         background-color: #150c03;
@@ -60,8 +58,6 @@ height: auto;
         min-height: 300px;
         padding: 120px 0 40px;
     }
-    .contact-form > .row{
-        padding-top: 50px;
-    }
 }
+*/
  
