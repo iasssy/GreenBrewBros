@@ -147,6 +147,7 @@ main header .splash-image{
     padding: 10px; 
     overflow-wrap: break-word; 
     word-break: break-word; 
+}
 
 .product-card:hover img {
     transform: scale(1.1);
@@ -164,4 +165,3 @@ main header .splash-image{
         font-size: 0.8rem;
     }
 }
-
