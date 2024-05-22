@@ -114,7 +114,7 @@ main header h1 + hr {
     Footer
 */
 body > footer .footer {
-    background-color: #150c03;
+    background-color: #030F05;
     margin-top: -8vw;
     min-height: 80px;
     padding: 5vw 0 20px;
@@ -125,8 +125,10 @@ body > footer .footer .logo-image {
 body > footer .vr {
     color: #936848;
 }
-body > footer h5 {
+body > footer p:first-child  {
     color: #f8b803;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 
@@ -254,7 +256,7 @@ footer .contact-details i{
 .copyright {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #936848;
+    color: #c08659;
 }
 
 .footer-links li a{     

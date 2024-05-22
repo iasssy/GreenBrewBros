@@ -1,9 +1,6 @@
 /*
     Main content
 */
-main section {
-    background-color: #150c03;
-}
 main header .splash-image {
     background: url("../images/events-bg.png") no-repeat;
     background-size: cover;
