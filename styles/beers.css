@@ -79,10 +79,9 @@ main header .splash-image{
 }
 
 .selector-description {
-    font-weight: bold;
     color: #f2e7e7;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .selector-controls .btn {
