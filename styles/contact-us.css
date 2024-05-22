@@ -26,6 +26,8 @@ body > header .navbar-nav li a {
 
 main header .splash-image#splash-image-contact-us{    
     background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
+    background-size: cover;
+    background-position: center 50px;
 }
 
 .banner {    

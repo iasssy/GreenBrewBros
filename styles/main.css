@@ -97,7 +97,6 @@ main header {
     background-color: #150c03;
 }
 main header .splash-image {
-    background-size: cover;
     height: 215px;
     margin-top: -70px;
 }
