@@ -30,7 +30,7 @@ main header .splash-image {
     font-family: "Hammersmith One", Arial, Helvetica, sans-serif;
 }
 .card .card-body.date span:nth-child(1) {
-    font-size: 28px;
+    font-size: 48px;
 }
 .card .card-body.date span:nth-child(2)::before {
     content: "\00a0"
@@ -55,6 +55,9 @@ main header .splash-image {
     .card h1 {
         font-size: 30px;
     }
+}
+
+@media (min-width: 992px) {
     .card .card-body.date span {
         line-height: 60px;
     }
