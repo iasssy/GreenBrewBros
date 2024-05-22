@@ -27,11 +27,11 @@
 
 
 .slick-prev {
-    left: 10px;
+    left: 15px;
 }
 
 .slick-next {
-    right: 10px;
+    right: 40px;
 }
 
 .slick-carousel {
