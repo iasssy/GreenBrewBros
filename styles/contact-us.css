@@ -2,9 +2,9 @@
 /*
     Main content
 */
-
 main header .splash-image#splash-image-contact-us{    
-    background: url("../images/banner-contact-us.png") no-repeat; 
+    background: url("../images/banner-contact-us.png");
+    background-size: cover; 
 }
 
 .contact-form{
