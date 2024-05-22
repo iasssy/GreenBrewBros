@@ -77,13 +77,15 @@ body > header .navbar-nav li a {
     font-size: 2em;
     line-height: 1.8em;
     text-transform: capitalize;
+    color: #fff;
 }
 body > header .nav-link:link, 
 body > header .nav-link:visited {
-    color: #ffffff;
+    color: #fff;
 }
 body > header .nav-link:hover,
-body > header .nav-link:active {
+body > header .nav-link:active,
+body > header .navbar-nav .nav-link.active {
     color: #f8b803;
 }
 
@@ -122,6 +124,9 @@ body > footer .footer .logo-image {
 }
 body > footer .vr {
     color: #936848;
+}
+body > footer h5 {
+    color: #f8b803;
 }
 
 
@@ -250,7 +255,6 @@ footer .contact-details i{
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #936848;
-    /*margin-top: 40px;*/
 }
 
 .footer-links li a{     
