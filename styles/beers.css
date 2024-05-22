@@ -98,17 +98,6 @@ main header .splash-image{
     width: 150px;
 }
 
-/* for fix box of the second desing */
-/* Product Container with Fixed Height and Scrollbar */
-.product-container {
-    max-height: 350px; 
-    overflow-y: auto;  
-    margin: 0 -15px;  
-    padding: 0 15px;   
-}
-
-/* I use above part for changing */
-
 .product-card {
     position: relative;
     overflow: hidden;
