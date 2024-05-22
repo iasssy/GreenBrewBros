@@ -33,9 +33,9 @@ body > header .navbar-nav li a {
 */
 body > footer .footer {
     background-color: #150c03;
-    margin-top: -40px;
+    margin-top: -8vw;
     min-height: 80px;
-    padding: 20px 0;
+    padding: 5vw 0 20px;
 }
 body > footer .footer .logo-image {
     width: 175px;
@@ -106,10 +106,7 @@ main header h1 + hr {
     }
 
     body > footer .footer {
-        background-color: #150c03;
-        margin-top: -170px;
         min-height: 300px;
-        padding: 120px 0 40px;
     }
     body > footer .footer .logo-image {
         width: 225px;
