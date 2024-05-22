@@ -8,25 +8,30 @@
 /*
     Carousel
 */
-.slick-prev,
-.slick-next {
-    bottom: 25px;
-    z-index: 10;
+
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: none;
+    border: none;
+    color: #fff;
 }
 
 .slick-prev:before,
 .slick-next:before {
-    /*color: #F8B803;*/
     font-size: 40px;
 }
 
 
 .slick-prev {
-    left: 15px;
+    left: 10px;
 }
 
 .slick-next {
-    right: 40px;
+    right: 10px;
 }
 
 .slick-carousel {
@@ -322,3 +327,4 @@
         /* Not mobile safe */
     }
 }
+
