@@ -82,3 +82,65 @@ main header h1 + hr {
 main header .splash-image#splash-image-contact-us{    
     background: url("../images/banner-contact-us.png") no-repeat; /* added id, so that all the part of code can be used in all the pages*/
 }
+
+/* Main */
+.banner {    
+    position: relative;
+ }
+ .banner .cover {
+     object-fit: cover;
+     width: 100%;
+     height: 300px;
+ }
+ .banner h1{
+     position: absolute;
+     bottom: 30px;
+     left: 5%;
+     color: #ffffff;
+ }
+ .contact-form{
+     background-color: #150C03;
+     color: #ffffff;
+ }
+ .contact-form > .row{
+     padding-top: 100px;
+ }
+ .contact-form input, textarea.form-control{
+     background-color: rgba(147,104,72,0.5);
+     border: none;
+     color: #ffffff;
+     font-family: "Rubik", Arial, Helvetica, sans-serif;
+ }
+ .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+     color: #ffffff;
+     opacity: 1; /* Firefox */
+ }
+ 
+ .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: #ffffff;
+ }
+ 
+ .form-control::-ms-input-placeholder { /* Microsoft Edge */
+     color: #ffffff;
+ }
+ 
+ .address-map{
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ .address-map .contact-details{
+   width: 100%;
+   height: auto;
+ }
+ .address-map .contact-details i{
+     margin-right: 14px;
+     font-size: 1.4rem;
+ }
+ .contact-details i.bi-envelope-at + span {
+     font-family: "Rubik", Arial, Helvetica, sans-serif;
+ }
+ .collaborate{
+     margin-bottom: 100px;
+ }
+ 
+ 

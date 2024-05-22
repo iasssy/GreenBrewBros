@@ -1,206 +1,119 @@
+.overlay-text {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff
+}
 
-/* start of repetitive code*/
 
 /*
-    Main Navigation
+    Carousel
 */
-body > header {
-    background-color:  rgba(21,12,3,0.9);
-}
-body > header .navbar {
-    height: 70px;
-}
-body > header .logo {
-    width: 240px;
-}
-body > header .logo-image {
-    width: 145px;
-}
-body > header .navbar .offcanvas {
-    background-color: #150c03;
-}
-body > header .offcanvas-header {
-    filter: invert(1);
-}
-body > header .navbar-nav li a {
-    font-size: 2em;
-    line-height: 1.8em;
-    text-transform: capitalize;
+.slick-prev,
+.slick-next {
+    bottom: 25px;
+    z-index: 10;
 }
 
-/*
-    Main content
-*/
-
-main header {
-    background-color: #150c03;
-}
-.bg-brown{
-    background-color: #150c03;
-}
-main header .splash-image {
-    background-size: cover;
-    /* background: url("../images/events-bg.png") no-repeat; */ 
-    height: 215px;
-    margin-top: -70px;
-}
-main header h1 {
-    color: #fff;
-}
-main header h1 + hr {
-    color: #936848
+.slick-prev:before,
+.slick-next:before {
+    /*color: #F8B803;*/
+    font-size: 40px;
 }
 
 
-@media (min-width: 768px) {
-    body > header .navbar {
-        height: 125px;
-    }
-    body > header .logo {
-        width: 460px;
-    }
-    body > header .navbar-nav li a {
-        font-size: 18px;
-    }
-
-    body > footer .footer {
-        background-color: #150c03;
-        margin-top: -170px;
-        min-height: 300px;
-        padding: 120px 0 40px;
-    }
-    body > footer .footer .logo-image {
-        width: 225px;
-    }
-
-    main header .splash-image {
-        height: 450px;
-        margin-top: -125px;
-    }
-}
-
-/* end of repetitive code */
-
-
-
-.slick-prev:before,.slick-next:before {
-    color: #F8B803;
-    font-size: 30px;
-}
-
-   
 .slick-prev {
-    left: 10px; 
-    z-index: 1;
+    left: 15px;
 }
 
 .slick-next {
-    right: 10px; 
-    z-index: 1;
+    right: 40px;
 }
+
 .slick-carousel {
-    width: 100%;
-    height: 500px;
+    height: 550px;
     margin-top: -70px;
+    background-color: #000000;
 }
 
 .slide {
     position: relative;
-    width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 .slide .slide-image {
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: center;
-}
-.slide-image.slide1{
-    background-image: url('../images/tradeshow-booth-1.png');
-}
-.slide-image.slide2{
-    background-image: url('../images/bar-event-1.jpg');
+    background-position: center -75px;
 }
 
-.slide-image.slide3{
-    background-image: url('../images/new-year-event.jpg');
+.slide-image.slide1 {
+    background-image: url('../images/tradeshow-booth-1.png');
+    background-repeat: no-repeat;
 }
-.overlay {
+
+.slide-image.slide2 {
+    background-image: url('../images/bar-event-1.jpg');
+    background-repeat: no-repeat;
+}
+
+.slide-image.slide3 {
+    background-image: url('../images/new-year-event.jpg');
+    background-repeat: no-repeat;
+}
+
+.slick-carousel .overlay {
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
     left: 0;
     width: 100%;
 }
-.overlay-text {    
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-}
-.overlay-text h3{
-    color: #F8B803;
+
+.slick-carousel .overlay-text {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.overlay-text a{
-    color: #000000;
+.slick-carousel .overlay-text h1 {
+    font-size: 24px;
 }
 
-.home-beers{
+.slick-carousel .overlay-text h2 {
+    color: #f8b803;
+    font-size: 16px;
+}
+
+/*
+    Beer Section
+*/
+.home-beers {
+    height: 450px;
+    color: #fff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+
     background-size: cover;
     background: url("../images/beer-bg.png") no-repeat;
-    height: 450px;
+    background-color: #070707;
+    background-position: -450px;
 }
-.home-beers span{
+
+.home-beers span {
     font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 27px;
 }
-.home-beers  a{
+
+.home-beers a {
     color: #000000;
 }
-#our-beers{
-    font-size: 48px;
+
+.home-beers p span:nth-child(1) {
+    font-size: 32px;
 }
-span.font-orange-accent{
+
+.font-orange-accent {
     font-style: italic;
     color: #FF6347;
-}
-
-/* mobile*/
-@media (max-width: 767.98px) {
-    .overlay {            
-        bottom: 0;
-    }
-    .overlay-text {  
-        padding: 20px;
-        padding-left: 60px;  
-    }
-    .overlay-text h2{
-        font-size: 22px;
-    }    
-    .overlay-text h3{
-        font-size: 15px;
-    }
-
-    
-}
-
-/* desktop*/
-@media (min-width: 768px) {
-    .overlay-text h2{
-        font-size: 30px;
-    }
-    
-    .overlay-text h3{
-        font-size: 18px;
-    }
-    
-    .slick-carousel {
-        width: 100%;
-        height: 500px;
-        margin-top: -125px;
-    }
 }
 
 /*
@@ -213,33 +126,196 @@ span.font-orange-accent{
     height: 200px;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
-.parallax-bg div {
+
+.parallax-bg p {
     color: #fff;
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 21px;
-    font-style:italic;
+    font-style: italic;
     line-height: 28px;
 }
-.parallax-bg div span {
+
+.parallax-bg p span {
     font-weight: bold;
 }
-.parallax-bg div span:last-of-type {
+
+.parallax-bg p span:last-of-type {
     font-size: 26px;
-    color:#F8B803
+    color: #F8B803
+}
+
+/*
+    Bottles section
+*/
+.re-bottles .hops-image {
+    position: relative;
+    margin-top: -60px;
+    background: url("../images/hops.png") no-repeat center;
+    background-position: left top;
+    background-size: contain;
+    height: 215px;
+    z-index: -2;
+}
+
+.re-bottles>div {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.re-bottles>div div:not(:nth-child(1)) span {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.re-bottles>div div:nth-child(1) span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.re-bottles>div div:nth-child(1) {
+    margin-right: 100px;
+}
+
+.re-bottles>div div:nth-child(2) {
+    margin-right: 50px;
+}
+
+.re-bottles h6,
+.re-bottles h6+p {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.re-bottles h6 {
+    font-weight: 600;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .parallax-bg {
+        height: 250px;
+    }
+
+    .parallax-bg p {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .parallax-bg p span:last-of-type {
+        font-size: 32px;
+    }
 }
 
 @media (min-width: 768px) {
+    .overlay-text {
+        padding: 30px;
+    }
+
+    .slick-prev {
+        left: 30px;
+    }
+
+    .slick-next {
+        right: 55px;
+    }
+
+    .slick-carousel {
+        height: 700px;
+        margin-top: -125px;
+    }
+
+    .slide {
+        height: 700px;
+    }
+
+    .slick-carousel .overlay {
+        bottom: 30px;
+    }
+
+    .slick-carousel .overlay-text h1 {
+        font-size: 30px;
+    }
+
+    .slick-carousel .overlay-text h2 {
+        font-size: 18px;
+    }
+
+    .home-beers {
+        font-size: 40px;
+        line-height: 52px;
+        background-position: 0;
+    }
+
+    .home-beers span {
+        font-size: 48px;
+    }
+
+    .home-beers span {
+        font-size: 40px;
+    }
+
+    .home-beers p span:nth-child(1) {
+        font-size: 48px;
+    }
+
     .parallax-bg {
         height: 300px;
     }
-    .parallax-bg div {
+
+    .parallax-bg p {
         font-size: 32px;
         line-height: 42px;
     }
-    .parallax-bg div span:last-of-type {
+
+    .parallax-bg p span:last-of-type {
         font-size: 38px;
+    }
+
+    .re-bottles .hops-image {
+        margin-top: -175px;
+        background-position: left top;
+        height: 300px;
+    }
+
+    .re-bottles>div div {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .re-bottles>div div:not(:nth-child(1)) span {
+        font-size: 48px;
+    }
+
+    .re-bottles>div div:nth-child(1) span {
+        font-size: 36px;
+    }
+
+    .re-bottles>div div:nth-child(2) {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .re-bottles>div div:nth-child(3) {
+        margin-left: 100px;
+    }
+
+    .re-bottles h6,
+    .re-bottles h6+p {
+        font-size: 20px;
+        margin-left: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .parallax-bg {
+        height: 300px;
+        background-attachment: fixed;
+        /* Not mobile safe */
     }
 }
