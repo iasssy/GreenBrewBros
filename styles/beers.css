@@ -13,6 +13,12 @@
     }
 }
 
+.product-card ~ p {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
 main header .splash-image{    
     background: url("../images/beers-banner.png") no-repeat; 
     /* background-size: cover; */
@@ -62,7 +68,7 @@ main header .splash-image{
 
 .selector-title {
     font-size: 2rem;
-    color: #ff4c4c;
+    color: #ff6347;
     margin-bottom: 10px;
 }
 
@@ -80,8 +86,8 @@ main header .splash-image{
 }
 
 .selector-controls .btn {
-    background-color: #ffcc00;
-    border-color: #ffcc00;
+    background-color: #f8b803;
+    border-color: #f8b803;
     color: #000;
 }
 
