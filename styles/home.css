@@ -19,17 +19,13 @@
     border: none;
     color: #fff;
 }
-
 .slick-prev:before,
 .slick-next:before {
     font-size: 40px;
 }
-
-
 .slick-prev {
     left: 15px;
 }
-
 .slick-next {
     right: 40px;
 }
@@ -39,41 +35,12 @@
     margin-top: -70px;
     background-color: #000000;
 }
-
-.slide {
-    position: relative;
-    height: 550px;
-}
-
-.slide .slide-image {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center -75px;
-}
-
-.slide-image.slide1 {
-    background-image: url('../images/tradeshow-booth-1.png');
-    background-repeat: no-repeat;
-}
-
-.slide-image.slide2 {
-    background-image: url('../images/bar-event-1.jpg');
-    background-repeat: no-repeat;
-}
-
-.slide-image.slide3 {
-    background-image: url('../images/new-year-event.jpg');
-    background-repeat: no-repeat;
-}
-
 .slick-carousel .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
 }
-
 .slick-carousel .overlay-text {
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -85,6 +52,32 @@
 .slick-carousel .overlay-text h2 {
     color: #f8b803;
     font-size: 16px;
+}
+.slide {
+    position: relative;
+    height: 550px;
+}
+.slide .slide-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center -75px;
+}
+.slide-image.slide1 {
+    background-image: url('../images/trade-show-1.png');
+    background-repeat: no-repeat;
+}
+.slide-image.slide2 {
+    background-image: url('../images/trade-show-2.jpg');
+    background-repeat: no-repeat;
+}
+.slide-image.slide3 {
+    background-image: url('../images/trade-show-3.jpg');
+    background-repeat: no-repeat;
+}
+.slide-image.slide4 {
+    background-image: url('../images/trade-show-4.png');
+    background-repeat: no-repeat;
 }
 
 /*
