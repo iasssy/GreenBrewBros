@@ -29,6 +29,16 @@ main header .splash-image {
 .card .card-body.date span {
     font-family: "Hammersmith One", Arial, Helvetica, sans-serif;
 }
+.card .card-body.date span:nth-child(1) {
+    font-size: 28px;
+}
+.card .card-body.date span:nth-child(2)::before {
+    content: "\00a0"
+}
+.card .card-body.date span:nth-child(2) {
+    font-size: 28px;
+}
+
 .card a.btn { /* Read More */
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -45,13 +55,16 @@ main header .splash-image {
     .card h1 {
         font-size: 30px;
     }
-    .card .card-body.date div:nth-child(2) {
-        margin-top: -40px;
+    .card .card-body.date span {
+        line-height: 60px;
     }
-    .card .card-body.date div:nth-child(1) span {
+    .card .card-body.date span:nth-child(1) {
         font-size: 96px;
     }
-    .card .card-body.date div:nth-child(2) span {
+    .card .card-body.date span:nth-child(2)::before {
+        content: ""
+    }
+    .card .card-body.date span:nth-child(2) {
         font-size: 48px;
     }
 }
