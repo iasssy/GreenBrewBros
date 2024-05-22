@@ -1,0 +1,324 @@
+.overlay-text {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff
+}
+
+
+/*
+    Carousel
+*/
+.slick-prev,
+.slick-next {
+    bottom: 25px;
+    z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    /*color: #F8B803;*/
+    font-size: 40px;
+}
+
+
+.slick-prev {
+    left: 15px;
+}
+
+.slick-next {
+    right: 40px;
+}
+
+.slick-carousel {
+    height: 550px;
+    margin-top: -70px;
+    background-color: #000000;
+}
+
+.slide {
+    position: relative;
+    height: 550px;
+}
+
+.slide .slide-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center -75px;
+}
+
+.slide-image.slide1 {
+    background-image: url('../images/tradeshow-booth-1.png');
+    background-repeat: no-repeat;
+}
+
+.slide-image.slide2 {
+    background-image: url('../images/bar-event-1.jpg');
+    background-repeat: no-repeat;
+}
+
+.slide-image.slide3 {
+    background-image: url('../images/new-year-event.jpg');
+    background-repeat: no-repeat;
+}
+
+.slick-carousel .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slick-carousel .overlay-text {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slick-carousel .overlay-text h1 {
+    font-size: 24px;
+}
+
+.slick-carousel .overlay-text h2 {
+    color: #f8b803;
+    font-size: 16px;
+}
+
+/*
+    Beer Section
+*/
+.home-beers {
+    height: 450px;
+    color: #fff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+
+    background-size: cover;
+    background: url("../images/beer-bg.png") no-repeat;
+    background-color: #070707;
+    background-position: -450px;
+}
+
+.home-beers span {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.home-beers a {
+    color: #000000;
+}
+
+.home-beers p span:nth-child(1) {
+    font-size: 32px;
+}
+
+.font-orange-accent {
+    font-style: italic;
+    color: #FF6347;
+}
+
+/*
+    Quote section
+*/
+.parallax-bg {
+    /* The image used */
+    background: url("../images/home-parallax-bg.png") no-repeat center;
+    /* Set a specific height */
+    height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.parallax-bg p {
+    color: #fff;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-style: italic;
+    line-height: 28px;
+}
+
+.parallax-bg p span {
+    font-weight: bold;
+}
+
+.parallax-bg p span:last-of-type {
+    font-size: 26px;
+    color: #F8B803
+}
+
+/*
+    Bottles section
+*/
+.re-bottles .hops-image {
+    position: relative;
+    margin-top: -60px;
+    background: url("../images/hops.png") no-repeat center;
+    background-position: left top;
+    background-size: contain;
+    height: 215px;
+    z-index: -2;
+}
+
+.re-bottles>div {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.re-bottles>div div:not(:nth-child(1)) span {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.re-bottles>div div:nth-child(1) span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.re-bottles>div div:nth-child(1) {
+    margin-right: 100px;
+}
+
+.re-bottles>div div:nth-child(2) {
+    margin-right: 50px;
+}
+
+.re-bottles h6,
+.re-bottles h6+p {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.re-bottles h6 {
+    font-weight: 600;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .parallax-bg {
+        height: 250px;
+    }
+
+    .parallax-bg p {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .parallax-bg p span:last-of-type {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .overlay-text {
+        padding: 30px;
+    }
+
+    .slick-prev {
+        left: 30px;
+    }
+
+    .slick-next {
+        right: 55px;
+    }
+
+    .slick-carousel {
+        height: 700px;
+        margin-top: -125px;
+    }
+
+    .slide {
+        height: 700px;
+    }
+    .slide .slide-image {
+        background-position: center;
+    }
+
+    .slick-carousel .overlay {
+        bottom: 30px;
+    }
+
+    .slick-carousel .overlay-text h1 {
+        font-size: 30px;
+    }
+
+    .slick-carousel .overlay-text h2 {
+        font-size: 18px;
+    }
+
+    .home-beers {
+        font-size: 40px;
+        line-height: 52px;
+        background-position: 0;
+    }
+
+    .home-beers span {
+        font-size: 48px;
+    }
+
+    .home-beers span {
+        font-size: 40px;
+    }
+
+    .home-beers p span:nth-child(1) {
+        font-size: 48px;
+    }
+
+    .parallax-bg {
+        height: 300px;
+    }
+
+    .parallax-bg p {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .parallax-bg p span:last-of-type {
+        font-size: 38px;
+    }
+
+    .re-bottles .hops-image {
+        margin-top: -175px;
+        background-position: left top;
+        height: 300px;
+    }
+
+    .re-bottles>div div {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .re-bottles>div div:not(:nth-child(1)) span {
+        font-size: 48px;
+    }
+
+    .re-bottles>div div:nth-child(1) span {
+        font-size: 36px;
+    }
+
+    .re-bottles>div div:nth-child(2) {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .re-bottles>div div:nth-child(3) {
+        margin-left: 100px;
+    }
+
+    .re-bottles h6,
+    .re-bottles h6+p {
+        font-size: 20px;
+        margin-left: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .parallax-bg {
+        height: 300px;
+        background-attachment: fixed;
+        /* Not mobile safe */
+    }
+}

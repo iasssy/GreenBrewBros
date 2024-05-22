@@ -1,0 +1,56 @@
+/*
+    Main content
+*/
+main section {
+    background-color: #150c03;
+}
+main header .splash-image {
+    background: url("../images/events-bg.png") no-repeat;
+}
+
+/*
+    Cards
+*/
+.card {
+    background-color: rgba(248,184,3, 0.1);
+    color: #fff;
+}
+.card h2 {
+    font-size: 18px;
+}
+.card .card-subtitle {
+    color: #f8b803;
+}
+.card .card-body.date {
+    background-color: #f8b803;
+    color: #000;
+}
+.card .card-body.date span {
+    font-family: "Hammersmith One", Arial, Helvetica, sans-serif;
+}
+.card a.btn { /* Read More */
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #f8b803;
+    border: #f8b803 solid 2px;
+    background-color: transparent;
+}
+.card a.btn:hover, .card a.btn:active {
+    background-color: rgb(248, 184, 3, .1);
+}
+
+
+@media (min-width: 768px) {
+    .card h1 {
+        font-size: 30px;
+    }
+    .card .card-body.date div:nth-child(2) {
+        margin-top: -40px;
+    }
+    .card .card-body.date div:nth-child(1) span {
+        font-size: 96px;
+    }
+    .card .card-body.date div:nth-child(2) span {
+        font-size: 48px;
+    }
+}
