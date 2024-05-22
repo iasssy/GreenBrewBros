@@ -295,6 +295,9 @@ footer .contact-details i{
         animation-delay: -2s
    
 }
+.iframe-map{
+    width: 100%;
+}
 @keyframes move-forever1 {
     0% {
         transform:translate(-90px,0%)
