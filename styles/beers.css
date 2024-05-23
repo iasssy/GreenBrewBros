@@ -6,7 +6,7 @@
 
 .product-card ~ p {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 0.8rem;
     font-weight: 600;
     margin-top: 2rem;
 }
@@ -59,13 +59,13 @@ main header .splash-image{
 }
 
 .selector-title {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ff6347;
     margin-bottom: 10px;
 }
 
 .selector-subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ffffff;
     margin-bottom: 10px;
 }
@@ -73,7 +73,7 @@ main header .splash-image{
 .selector-description {
     color: #f2e7e7;
     margin-bottom: 20px;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .selector-controls .btn {
@@ -83,12 +83,15 @@ main header .splash-image{
 }
 
 .alcohol-level-img-container {
-    padding: 0 20px;
+    margin: 0 -20px;
+}
+#prevArrow, #nextArrow {
+    z-index: 2;
 }
 
 
 .alcohol-level-img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -100,6 +103,7 @@ main header .splash-image{
     width: 100%;
     padding-top: 100%; 
     background-color: #f0f0f0; 
+    margin-bottom: 20px;
 }
 
 .product-card img {
@@ -140,23 +144,26 @@ main header .splash-image{
     opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .selector-title {
-        font-size: 3rem;
-    }
-    .selector-subtitle {
         font-size: 2rem;
     }
+    .selector-subtitle {
+        font-size: 1.5rem;
+    }
     .selector-description {
-        font-size: 1.25rem;
+        font-size: 1rem;
+    }
+    .alcohol-level-img-container {
+        padding: 0 20px;
     }
     .alcohol-level-img {
-        width: 250px;
+        width: 200px;
     }
     .product-card {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .product-info p {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 }
