@@ -142,13 +142,27 @@
 /*
     Bottles section
 */
+.re-bottles {
+    position:relative;
+}
 .re-bottles .hops-image {
     position: relative;
     margin-top: -60px;
     background: url("../images/hops.webp") no-repeat center;
-    background-position: left top;
+    background-position: top left;
     background-size: contain;
     height: 215px;
+    z-index: -2;
+}
+.re-bottles .leaves-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../images/leaves-bottom.webp") no-repeat center;
+    background-position: top right;
+    background-size: contain;
+    height: 28vh;
+    width: 28vw;
     z-index: -2;
 }
 
@@ -209,10 +223,12 @@
         padding: 30px;
     }
 
+    .slick-prev, .slick-next {
+        height: 60px;
+    }
     .slick-prev {
         left: 30px;
     }
-
     .slick-next {
         right: 30px;
     }
