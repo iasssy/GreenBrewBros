@@ -11,7 +11,7 @@
 }
 
 main header .splash-image{    
-    background: url("../images/beers-banner.png") no-repeat; 
+    background: url("../images/beers-banner.webp") no-repeat; 
     background-size: cover;
 }
 

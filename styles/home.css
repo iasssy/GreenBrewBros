@@ -91,7 +91,7 @@
     line-height: 36px;
 
     background-size: cover;
-    background: url("../images/beer-bg.png") no-repeat;
+    background: url("../images/beer-bg.webp") no-repeat;
     background-color: #070707;
     background-position: -450px;
 }
@@ -119,7 +119,7 @@
 */
 .parallax-bg {
     /* The image used */
-    background: url("../images/home-parallax-bg.png") no-repeat center;
+    background: url("../images/home-parallax-bg.webp") no-repeat center;
     /* Set a specific height */
     height: 200px;
 
@@ -151,7 +151,7 @@
 .re-bottles .hops-image {
     position: relative;
     margin-top: -60px;
-    background: url("../images/hops.png") no-repeat center;
+    background: url("../images/hops.webp") no-repeat center;
     background-position: left top;
     background-size: contain;
     height: 215px;
@@ -182,13 +182,13 @@
     margin-right: 50px;
 }
 
-.re-bottles h6,
-.re-bottles h6+p {
+
+.re-bottles p {
     font-size: 14px;
     line-height: normal;
 }
 
-.re-bottles h6 {
+.re-bottles p:first-child {
     font-weight: 600;
 }
 

@@ -31,22 +31,27 @@ h2, h3, h4, h5, h6 {
 /*
     Buttons
 */
-.btn-primary {
+.btn-primary, .btn-outline-primary {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #000;
 }
-.btn-primary, .btn-primary:link, .btn-primary:visited{
+.btn-primary, .btn-primary:link, .btn-primary:visited {
     background-color: #F8B803;
     border-color:#F8B803;
 }
-.btn-primary:hover, .btn-primary:active{
+.btn-primary:hover, .btn-primary:active {
     background-color: #9c6308;
 }
-.btn-outline-primary, .btn-outline-primary:link, .btn-outline-primary:visited{
-    border: 1px solid #f8b803;
+.btn-outline-primary, .btn-outline-primary:link, .btn-outline-primary:visited {
+    border: 2px solid #f8b803;
     color: #F8B803;
 }
+.btn-outline-primary:hover, .btn-outline-primary:active {
+    background-color: rgb(248, 184, 3, .1);
+    border: 2px solid #f8b803;
+}
+
 
 /*
     Main Navigation

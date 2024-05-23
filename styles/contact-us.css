@@ -3,8 +3,9 @@
     Main content
 */
 main header .splash-image#splash-image-contact-us{    
-    background: url("../images/banner-contact-us.png") no-repeat center;
+    background: url("../images/banner-contact-us.webp") no-repeat center;
     background-size: cover; 
+    background-position: center bottom;
 }
 
 .contact-form{
