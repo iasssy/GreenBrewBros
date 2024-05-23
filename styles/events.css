@@ -2,7 +2,7 @@
     Main content
 */
 main header .splash-image {
-    background: url("../images/events-bg.png") no-repeat;
+    background: url("../images/events-bg.webp") no-repeat;
     background-size: cover;
 }
 

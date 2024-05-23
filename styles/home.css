@@ -64,19 +64,19 @@
     background-position: center -75px;
 }
 .slide-image.slide1 {
-    background-image: url('../images/trade-show-1.png');
+    background-image: url('../images/trade-show-1.webp');
     background-repeat: no-repeat;
 }
 .slide-image.slide2 {
-    background-image: url('../images/trade-show-2.jpg');
+    background-image: url('../images/trade-show-2.webp');
     background-repeat: no-repeat;
 }
 .slide-image.slide3 {
-    background-image: url('../images/trade-show-3.jpg');
+    background-image: url('../images/trade-show-3.webp');
     background-repeat: no-repeat;
 }
 .slide-image.slide4 {
-    background-image: url('../images/trade-show-4.png');
+    background-image: url('../images/trade-show-4.webp');
     background-repeat: no-repeat;
 }
 

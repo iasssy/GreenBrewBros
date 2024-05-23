@@ -59,6 +59,7 @@ body > header .navbar {
 }
 body > header .logo {
     width: 240px;
+    height: auto;
 }
 body > header .logo-image {
     width: 145px;
@@ -335,6 +336,7 @@ footer .contact-details i{
     }
     body > header .logo {
         width: 460px;
+        height: auto;
     }
     body > header .navbar-nav li a {
         font-size: 18px;
