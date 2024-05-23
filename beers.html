@@ -23,25 +23,22 @@
     <!-- Header -->
     <header class="sticky-top">
         <nav class="navbar navbar-expand-md" aria-label="Offcanvas navbar">
-            <div class="container-fluid ps-3 col-md-10 mt-md-4">
-
-                <a class="navbar-brand col-md-5" href="index.html">
-                    <img class="logo img-fluid mt-md-3" src="images/logo-text.webp" alt="Green Brew Bros logo">
+            <div class="container-fluid col-md-10 mt-md-4">
+                
+                <a class="navbar-brand offset-1 col-8 offset-md-0 col-md-5" href="index.html">
+                    <img class="logo img-fluid mt-md-3" src="images/logo-text.webp" alt="GreenBrewBros logo" >
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-nav"
-                    aria-controls="main-nav" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-nav" aria-controls="main-nav" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                    </button>
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="main-nav">
                     <div class="offcanvas-header">
-                        <button type="button" class="btn-close fs-3" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+                        <button type="button" class="btn-close fs-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul
-                            class="navbar-nav me-auto mb-4 mt-4 mt-mb-5 mb-md-0 align-items-center justify-content-md-end flex-grow-1">
+                        <ul class="navbar-nav me-auto mb-4 mt-4 mt-md-5 mb-md-0 align-items-center justify-content-md-end flex-grow-1">
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
@@ -55,7 +52,7 @@
                                 <a class="nav-link text-nowrap" href="contacts.html">Contact Us</a>
                             </li>
                         </ul>
-                        <div class="social-icons-footer mb-5 text-center d-md-none">
+                        <div class="d-md-none mb-5 text-center social-icons-footer">
                             <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
                             <a href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" title="Foursquare">
@@ -66,9 +63,8 @@
                             <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
                             <a href="#" title="Vimeo"><i class="bi bi-vimeo"></i></a>
                         </div>
-                        <div class="text-center d-md-none">
-                            <img class="img-fluid logo-image" src="images/logo-image.png"
-                                alt="logo image Green Brew Bros">
+                        <div class="d-md-none text-center">
+                            <img class="img-fluid logo-image" src="images/logo-image.png" alt="logo image GreenBrewBros">
                         </div>
                     </div>
                 </div>
@@ -88,19 +84,19 @@
 
             <div class="container mt-5">
                 <div class="row align-items-center text-center">
-                    <div class="col-12 col-md-5 text-md-start text-center">
+                    <div class="offset-md-1 col-md-4 text-md-start text-center">
                         <h2 class="selector-title">Select</h2>
                         <h3 class="selector-subtitle">alcohol level</h3>
                         <p class="selector-description">Use the arrows to select your desired alcohol level. Below,
                             you'll see all our products that match your chosen level.</p>
                     </div>
-                    <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
-                        <button id="prevArrow" class="btn btn-outline-warning me-3">&lt;&lt;</button>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <button id="prevArrow" class="btn btn-outline-primary">&lt;&lt;</button>
                         <div class="alcohol-level-img-container">
                             <img src="images/82.jpg" alt="Alcohol Level 3-5%" class="alcohol-level-img"
                                 id="alcoholImage">
                         </div>
-                        <button id="nextArrow" class="btn btn-outline-warning ms-3">&gt;&gt;</button>
+                        <button id="nextArrow" class="btn btn-outline-primary">&gt;&gt;</button>
                     </div>
                 </div>
             </div>
