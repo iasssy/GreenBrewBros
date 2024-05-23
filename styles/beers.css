@@ -4,15 +4,6 @@
 */
 
 
-@media (min-width: 768px) {
-    body > footer .footer {
-        background-color: #150c03;
-        margin-top: -170px;
-        min-height: 300px;
-        padding: 120px 0 40px;
-    }
-}
-
 .product-card ~ p {
     font-size: 2em;
     font-weight: bold;
