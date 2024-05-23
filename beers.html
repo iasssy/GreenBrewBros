@@ -1,141 +1,642 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GreenBrewBros - beers</title>
+    <title>Explore our Beers - Organic Craft Beers | GreenBrewBros Microbrewery</title>
+    <meta name="description"
+        content="Discover the organic craft beers from GreenBrewBros. Explore our unique, eco-friendly brews made in Nova Scotia.">
+    <meta name="author" content="Mohammad Javad Safdari">
+    <meta property="og:title" content="Our Beers | GreenBrewBros Microbrewery">
+    <meta property="og:description"
+        content="Explore the unique, organic craft beers from GreenBrewBros, Nova Scotia's eco-friendly microbrewery.">
+    <meta property="og:type" content="website">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/beers.css">
-  </head>
-  <body>
-    
-        <!-- Header -->
-        <header class="sticky-top">
-          <nav class="navbar navbar-expand-md" aria-label="Offcanvas navbar">
-              <div class="container-fluid ps-3 col-md-10 mt-md-4">
-                  
-                  <a class="navbar-brand col-md-5" href="index.html">
-                      <img class="logo img-fluid mt-md-3" src="images/logo-text.png" alt="Green Brew Bros logo" >
-                  </a>
+</head>
 
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-nav" aria-controls="main-nav" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                      </button>
+<body>
 
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="main-nav">
-                      <div class="offcanvas-header">
-                          <button type="button" class="btn-close fs-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      </div>
-                      <div class="offcanvas-body">
-                          <ul class="navbar-nav me-auto mb-4 mt-4 mt-mb-5 mb-md-0 align-items-center justify-content-md-end flex-grow-1">
-                              <li class="nav-item">
-                                  <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="events.html">Events</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="beers.html">Beers</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link text-nowrap" href="contacts.html">Contact Us</a>
-                              </li>
-                          </ul>
-                          <div class="social-icons-footer mb-5 text-center d-md-none">
-                              <a href="#"><i class="bi bi-facebook"></i></a>
-                              <a href="#"><i class="bi bi-twitter"></i></a>
-                              <a href="#">
-                                  <svg class="bi bi-foursquare" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 512" height="30">
-                                      <path d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z"/>
-                                  </svg>
-                              </a>
-                              <a href="#"><i class="bi bi-instagram"></i></a>
-                              <a href="#"><i class="bi bi-vimeo"></i></a>
-                          </div>
-                          <div class="text-center d-md-none">
-                              <img class="img-fluid logo-image" src="images/logo-image.png" alt="logo image Green Brew Bros">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </nav>
-      </header>
+    <!-- Header -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md" aria-label="Offcanvas navbar">
+            <div class="container-fluid ps-3 col-md-10 mt-md-4">
+
+                <a class="navbar-brand col-md-5" href="index.html">
+                    <img class="logo img-fluid mt-md-3" src="images/logo-text.png" alt="Green Brew Bros logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="main-nav">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close fs-3" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul
+                            class="navbar-nav me-auto mb-4 mt-4 mt-mb-5 mb-md-0 align-items-center justify-content-md-end flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="events.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="beers.html">Beers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-nowrap" href="contacts.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="social-icons-footer mb-5 text-center d-md-none">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#">
+                                <svg class="bi bi-foursquare" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 512"
+                                    height="30">
+                                    <path
+                                        d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z" />
+                                </svg>
+                            </a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-vimeo"></i></a>
+                        </div>
+                        <div class="text-center d-md-none">
+                            <img class="img-fluid logo-image" src="images/logo-image.png"
+                                alt="logo image Green Brew Bros">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- main content -->
-    <main>     
-      <section class="bg-brown">
-        <header>
-          <div class="splash-image"></div>
-          <div class="offset-1 col-10">
-              <h1 class="mt-4">Beers</h1>
-              <hr class="border-2 opacity-50">
-          </div>
-        </header>
-      <div class="container">
+    <main>
+        <section class="bg-brown">
+            <header>
+                <div class="splash-image"></div>
+                <div class="offset-1 col-10">
+                    <h1 class="mt-4">Beers</h1>
+                    <hr class="border-2 opacity-50">
+                </div>
+            </header>
 
-        <!-- Brown Section-->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-      
-      </div>
-      </section>      
-      <section>
-        <!--White secion -->
-     </section>
+            <div class="container mt-5">
+                <div class="row align-items-center text-center">
+                    <div class="col-12 col-md-5 text-md-start text-center">
+                        <h2 class="selector-title">Select</h2>
+                        <h3 class="selector-subtitle">alcohol level</h3>
+                        <p class="selector-description">Use the arrows to select your desired alcohol level. Below,
+                            you'll see all our products that match your chosen level.</p>
+                    </div>
+                    <div class="col-12 col-md-7 d-flex justify-content-center align-items-center">
+                        <button id="prevArrow" class="btn btn-outline-warning me-3">&lt;&lt;</button>
+                        <div class="alcohol-level-img-container">
+                            <img src="images/82.jpg" alt="Alcohol Level 3-5%" class="alcohol-level-img"
+                                id="alcoholImage">
+                        </div>
+                        <button id="nextArrow" class="btn btn-outline-warning ms-3">&gt;&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-waves">
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28 " preserveAspectRatio="none">
+                    <defs>
+                        <path id="gentle-wave"
+                            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+                    </defs>
+                    <g class="parallax1">
+                        <use xlink:href="#gentle-wave" x="50" y="3"></use>
+                    </g>
+                    <g class="parallax2">
+                        <use xlink:href="#gentle-wave" x="50" y="9"></use>
+                    </g>
+                    <g class="parallax3">
+                        <use xlink:href="#gentle-wave" x="50" y="6"></use>
+                    </g>
+                </svg>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-5">
+                <div class="row justify-content-left">
+
+                    <!-- 3 - 5 -->
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/1.jpg" alt="Haze Charmer" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, grapefruit, peach, hint of pine</p>
+                                <p>4.5% | $7.00</p>
+                            </div>
+                        </div>
+                        <p class="text-center">HAZE CHARMER</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/2.jpg" alt="Tropical Breeze" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, citrus, coconut, touch of honey</p>
+                                <p>4.6% | $7.92</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL BREEZE</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/3.jpg" alt="Sunset Dream" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>apple, berry, vanilla, slight caramel</p>
+                                <p>4.3% | $7.56</p>
+                            </div>
+                        </div>
+                        <p class="text-center">SUNSET DREAM</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/4.jpg" alt="Citrus Splash" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>lime, kiwi, mint, dash of coriander</p>
+                                <p>4.4% | $6.19</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS SPLASH</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/5.jpg" alt="Tropical Twist" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, grapefruit, peach, hint of pine</p>
+                                <p>4.5% | $6.80</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL TWIST</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/6.jpg" alt="Berry Burst" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pear, passionfruit, lemongrass, touch of basil</p>
+                                <p>4.1% | $6.11</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY BURST</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/7.jpg" alt="Mango Haze" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, lime, coconut, touch of mint</p>
+                                <p>4.7% | $7.50</p>
+                            </div>
+                        </div>
+                        <p class="text-center">MANGO HAZE</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/8.jpg" alt="Berry Delight" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>strawberry, blueberry, vanilla, hint of honey</p>
+                                <p>4.2% | $6.70</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY DELIGHT</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/9.jpg" alt="Citrus Blast" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>lemon, lime, orange, touch of ginger</p>
+                                <p>4.5% | $7.20</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS BLAST</p>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5 filterDiv 3-5">
+                        <div class="product-card">
+                            <img src="images/beers/10.jpg" alt="Passion Punch" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>passionfruit, mango, pineapple, hint of basil</p>
+                                <p>4.8% | $8.00</p>
+                            </div>
+                        </div>
+                        <p class="text-center">PASSION PUNCH</p>
+                    </div>
+                    <!-- 5 - 7 -->
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/11.jpg" alt="Citrus Thunder" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>lemon, lime, ginger, hint of honey</p>
+                                <p>5.2% | $7.25</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS THUNDER</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/12.jpg" alt="Pineapple Bliss" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, coconut, mango, touch of mint</p>
+                                <p>5.6% | $7.40</p>
+                            </div>
+                        </div>
+                        <p class="text-center">PINEAPPLE BLISS</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/13.jpg" alt="Berry Fusion" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>blueberry, blackberry, vanilla, hint of lemon</p>
+                                <p>5.8% | $7.60</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY FUSION</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/14.jpg" alt="Tropical Wave" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, passionfruit, pineapple, touch of basil</p>
+                                <p>6.1% | $7.80</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL WAVE</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/15.jpg" alt="Citrus Burst" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>orange, grapefruit, lime, touch of coriander</p>
+                                <p>6.3% | $7.35</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS BURST</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/16.jpg" alt="Mango Tango" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, peach, lime, hint of ginger</p>
+                                <p>6.5% | $7.55</p>
+                            </div>
+                        </div>
+                        <p class="text-center">MANGO TANGO</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/17.jpg" alt="Berry Medley" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>strawberry, raspberry, hint of lemon, touch of mint</p>
+                                <p>6.7% | $7.70</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY MEDLEY</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/18.jpg" alt="Peach Paradise" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>peach, mango, hint of lime, touch of basil</p>
+                                <p>6.8% | $7.65</p>
+                            </div>
+                        </div>
+                        <p class="text-center">PEACH PARADISE</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/19.jpg" alt="Citrus Twist" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>grapefruit, lemon, lime, touch of honey</p>
+                                <p>6.9% | $7.50</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS TWIST</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 5-7">
+                        <div class="product-card">
+                            <img src="images/beers/20.jpg" alt="Tropical Delight" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, passionfruit, coconut, hint of lime</p>
+                                <p>5.9% | $7.85</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL DELIGHT</p>
+                    </div>
+
+                    <!-- 7 - 9 -->
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/21.jpg" alt="Tropical Storm" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, pineapple, hint of lime</p>
+                                <p>7.2% | $8.25</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL STORM</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/22.jpg" alt="Citrus Blast" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>orange, grapefruit, lemon, touch of mint</p>
+                                <p>7.4% | $8.40</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS BLAST</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/23.jpg" alt="Berry Explosion" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>blueberry, raspberry, blackberry, hint of vanilla</p>
+                                <p>7.5% | $8.60</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY EXPLOSION</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/24.jpg" alt="Peach Wave" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>peach, mango, hint of ginger</p>
+                                <p>7.7% | $8.80</p>
+                            </div>
+                        </div>
+                        <p class="text-center">PEACH WAVE</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/25.jpg" alt="Mango Madness" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, lime, coconut, touch of mint</p>
+                                <p>7.8% | $8.35</p>
+                            </div>
+                        </div>
+                        <p class="text-center">MANGO MADNESS</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/26.jpg" alt="Tropical Thunder" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, passionfruit, hint of basil</p>
+                                <p>8.0% | $8.55</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL THUNDER</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/27.jpg" alt="Berry Blast" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>strawberry, blueberry, lemon, touch of honey</p>
+                                <p>8.1% | $8.70</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY BLAST</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/28.jpg" alt="Citrus Smash" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>grapefruit, orange, lime, touch of ginger</p>
+                                <p>8.3% | $8.75</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS SMASH</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/29.jpg" alt="Pineapple Punch" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, coconut, mango, hint of lime</p>
+                                <p>8.4% | $8.60</p>
+                            </div>
+                        </div>
+                        <p class="text-center">PINEAPPLE PUNCH</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/30.jpg" alt="Mango Blast" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>mango, passionfruit, touch of basil</p>
+                                <p>8.5% | $8.90</p>
+                            </div>
+                        </div>
+                        <p class="text-center">MANGO BLAST</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/31.jpg" alt="Berry Bomb" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>raspberry, blueberry, strawberry, hint of lemon</p>
+                                <p>8.6% | $8.80</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY BOMB</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/32.jpg" alt="Citrus Twist" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>orange, lime, grapefruit, touch of mint</p>
+                                <p>8.7% | $8.75</p>
+                            </div>
+                        </div>
+                        <p class="text-center">CITRUS TWIST</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/33.jpg" alt="Peach Punch" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>peach, mango, lime, touch of honey</p>
+                                <p>8.8% | $8.95</p>
+                            </div>
+                        </div>
+                        <p class="text-center">PEACH PUNCH</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/34.jpg" alt="Tropical Fusion" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>pineapple, mango, passionfruit, hint of basil</p>
+                                <p>8.9% | $9.00</p>
+                            </div>
+                        </div>
+                        <p class="text-center">TROPICAL FUSION</p>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-5 filterDiv 7-9">
+                        <div class="product-card">
+                            <img src="images/beers/35.jpg" alt="Berry Delight" class="img-fluid product-img">
+                            <div class="product-info">
+                                <p>blueberry, raspberry, blackberry, hint of mint</p>
+                                <p>9.0% | $9.10</p>
+                            </div>
+                        </div>
+                        <p class="text-center">BERRY DELIGHT</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
     </main>
-    <!-- footer -->    
+
+    <!-- footer -->
     <footer class="mt-4">
-      <img class="footer-image w-100" src="images/cropped-house.png" alt="Green Brew Bros factory">
-      <div class="footer text-center">
-          <div class="mt-4 mb-3 social-icons-footer">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#">
-                  <svg class="bi bi-foursquare" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 512" height="30">
-                      <path d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z"/>
-                  </svg>
-              </a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-vimeo"></i></a>
-          </div>
-          <div class="row m-0">
-              <div class="offset-sm-1 col-sm-10 offset-md-1 col-md-10 offset-lg-2 col-lg-3 pt-3 text-center">
-                  <img class="img-fluid logo-image mb-4" src="images/logo-image.png" alt="logo image Green Brew Bros">
-                  <p class="text-justify p-2">We are a small microbrewery established in 2018 in the great province of Nova Scotia. Two brothers, Simon and Samuel, and a love of ales is how our story begins.</p>  
-              </div>
-              <div class="col-md-1 d-none d-lg-block"><div class="vr h-100 vertical-line-container"></div></div>
-              <div class="offset-sm-1 col-sm-10 col-md-10 offset-lg-0 col-lg-6 d-lg-flex flex-lg-row py-3">
-                  <div>
-                      <iframe class="iframe-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5674.5520560807145!2d-63.569333099999994!3d44.673141199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a215874055b2d%3A0x1853e9a5beb13e9d!2s123%20Maple%20St%2C%20Dartmouth%2C%20NS%20B3A%201X9!5e0!3m2!1sen!2sca!4v1716160334561!5m2!1sen!2sca" 
-                      height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
-                  </div>
-                  <div class="ps-3">
-                      <div class="contact-details d-flex flex-row mb-4">
-                          <i class="bi bi-geo-alt"></i>
-                          <span class="d-flex flex-column text-start">
-                              123 Maple Street<br>
-                              Halifax, Nova Scotia<br>
-                              B3J 2K9  Canada
-                          </span>
-                      </div>
-                      <div class="contact-details d-flex flex-row">
-                          <i class="bi bi-telephone-inbound"></i>
-                          <span>(902) 555-1234</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="copyright">
-              <i class="bi bi-c-circle"></i> 2024 Green Brew Bros. All Rights Reserved.
-          </div>
-      </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+        <img class="footer-image w-100" src="images/cropped-house.png" alt="GreenBrewBros factory">
+        <div class="footer text-center">
+            <p class="text-uppercase pt-4 mb-1">Follow us</p> 
+            <div class="mb-4 social-icons-footer">
+                <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" title="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" title="Foursquare">
+                    <svg class="bi bi-foursquare" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 512" height="30">
+                        <path d="M323.1 3H49.9C12.4 3 0 31.3 0 49.1v433.8c0 20.3 12.1 27.7 18.2 30.1 6.2 2.5 22.8 4.6 32.9-7.1C180 356.5 182.2 354 182.2 354c3.1-3.4 3.4-3.1 6.8-3.1h83.4c35.1 0 40.6-25.2 44.3-39.7l48.6-243C373.8 25.8 363.1 3 323.1 3zm-16.3 73.8l-11.4 59.7c-1.2 6.5-9.5 13.2-16.9 13.2H172.1c-12 0-20.6 8.3-20.6 20.3v13c0 12 8.6 20.6 20.6 20.6h90.4c8.3 0 16.6 9.2 14.8 18.2-1.8 8.9-10.5 53.8-11.4 58.8-.9 4.9-6.8 13.5-16.9 13.5h-73.5c-13.5 0-17.2 1.8-26.5 12.6 0 0-8.9 11.4-89.5 108.3-.9 .9-1.8 .6-1.8-.3V75.9c0-7.7 6.8-16.6 16.6-16.6h219c8.2 0 15.6 7.7 13.5 17.5z"/>
+                    </svg>
+                </a>
+                <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" title="Vimeo"><i class="bi bi-vimeo"></i></a>
+            </div>
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="offset-sm-1 col-sm-10 offset-lg-2 col-lg-3 pt-3 text-center">
+                        <img class="img-fluid logo-image mb-2" src="images/logo-image.png" alt="logo image GreenBrewBros">
+                        <p class="text-justify p-2">We are a small microbrewery established in 2018 in the great province of Nova Scotia. Two brothers, Simon and Samuel, and a love of ales is how our story begins.</p>  
+                    </div>
+                    <div class="col-md-1 d-none d-lg-block py-2"><div class="vr h-100"></div></div>
+                    <div class="offset-sm-1 col-sm-10 offset-lg-0 col-lg-6 d-lg-flex flex-lg-row p-3">
+                        <div>
+                            <iframe title="GreenBrewBros location" class="iframe-map" src="https://maps.googleapis.com/maps/embed?pb=!1m18!1m12!1m3!1d5674.5520560807145!2d-63.569333099999994!3d44.673141199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a215874055b2d%3A0x1853e9a5beb13e9d!2s123%20Maple%20St%2C%20Dartmouth%2C%20NS%20B3A%201X9!5e0!3m2!1sen!2sca!4v1716160334561!5m2!1sen!2sca" 
+                            height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+                        </div>
+                        <div class="ps-lg-3">
+                            <div class="contact-details d-flex flex-row mb-4">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="d-flex flex-column text-start">
+                                    123 Maple Street<br>
+                                    Halifax, Nova Scotia<br>
+                                    B3J 2K9&emsp;Canada
+                                </span>
+                            </div>
+                            <div class="contact-details d-flex flex-row">
+                                <i class="bi bi-telephone-inbound text-start"></i>
+                                <span class="text-start">(902) 555-1234</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <i class="bi bi-c-circle"></i> 2024 GreenBrewBros. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        const levels = [
+            { range: '3-5', img: 'images/82.jpg' },
+            { range: '5-7', img: 'images/83.jpg' },
+            { range: '7-9', img: 'images/84.jpg' }
+        ];
+
+        let currentIndex = 0;
+
+        document.getElementById('prevArrow').addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? levels.length - 1 : currentIndex - 1;
+            updateSelection();
+        });
+
+        document.getElementById('nextArrow').addEventListener('click', () => {
+            currentIndex = (currentIndex === levels.length - 1) ? 0 : currentIndex + 1;
+            updateSelection();
+        });
+
+        function updateSelection() {
+            document.getElementById('alcoholImage').src = levels[currentIndex].img;
+            filterSelection(levels[currentIndex].range);
+        }
+
+        document.getElementById('alcoholImage').src = levels[currentIndex].img;
+        filterSelection(levels[currentIndex].range);
+
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        /*var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }*/
+    </script>
+</body>
+
 </html>
