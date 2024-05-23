@@ -11,23 +11,17 @@
 
 
 .slick-prev, .slick-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    background: none;
-    border: none;
-    color: #fff;
+    height: 50px;
+    width: auto;
+    z-index:10;
+    fill: #f8b803;
 }
-.slick-prev:before,
-.slick-next:before {
-    font-size: 40px;
-}
+
 .slick-prev {
     left: 15px;
 }
 .slick-next {
-    right: 40px;
+    right: 15px;
 }
 
 .slick-carousel {
@@ -220,7 +214,7 @@
     }
 
     .slick-next {
-        right: 55px;
+        right: 30px;
     }
 
     .slick-carousel {
